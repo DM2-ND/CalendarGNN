@@ -1,5 +1,5 @@
 # Calendar Graph Neural Networks for Modeling Time Structures in Spatiotemporal User Behaviors
-**Description: This repository contains the reference PyTorch implementation of *CalendarGNN* model proposed in paper *Calendar Graph Neural Networks for Modeling Time Structures in Spatiotemporal User Behaviors* accepted by KDD 2020.**
+**Description: This repository contains the reference implementation of *CalendarGNN* model proposed in the paper *Calendar Graph Neural Networks for Modeling Time Structures in Spatiotemporal User Behaviors* accepted by KDD 2020.**
 
 ## Model
 ![The architecture of *CalendarGNN*](https://github.com/kdd2020calendargnn/CalendarGNN/blob/master/fig/CalendarGNN.png? "*CalendarGNN*")
