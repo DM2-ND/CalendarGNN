@@ -1,5 +1,5 @@
 # Calendar Graph Neural Networks for Modeling Time Structures in Spatiotemporal User Behaviors
-**Description: This repository contains the reference implementation of the *CalendarGNN* proposed in the paper *Calendar Graph Neural Networks for Modeling Time Structures in Spatiotemporal User Behaviors* submitted to KDD 2020.**
+**Description: This repository contains the reference PyTorch implementation of *CalendarGNN* model proposed in paper *Calendar Graph Neural Networks for Modeling Time Structures in Spatiotemporal User Behaviors* accepted by KDD 2020.**
 
 ## Model
 ![The architecture of *CalendarGNN*](https://github.com/kdd2020calendargnn/CalendarGNN/blob/master/fig/CalendarGNN.png? "*CalendarGNN*")
@@ -18,13 +18,9 @@ pip install -r requirements.txt
 Other environment management tool such as [Conda](https://www.anaconda.com/) can also be used.
 
 ### 2. Data
-**Note: Due to size limits, this repository does not contain the datasets of spatiotemporal user behaviors. Please download one or more datasets following the links below.**
+**Note: Due to privacy constraints, this repository currently does not contain the datasets of spatiotemporal user behaviors described in the paper. We are working on necessary anonymization procedures and will update this section once available.**
 
-Real spatiotemporal datasets can be found at:
-+ B(w1): <https://bit.ly/2SpocOD>
-+ B(w2): <https://bit.ly/2SM1T4T>
-
-After downloading, please decompress it into the `./data/` folder. Predefined paths for locating necessary data files can be found in the `./config.py` file.
+In the meantime, any other datasets of spatiotemporal user behaviors can be placed into the `./data/` folder. Predefined paths for locating necessary data files can be found in the `./config.py` file.
 
 ### 3. Run
 To train the model, run
@@ -47,4 +43,4 @@ During training, the script keeps writing to the checkpoint file specified by th
 Other examples are provided in the `./demo.sh` file.
 
 ## Miscellaneous
-We thank all anonymous reviewers for their valuable feedbacks. More experimental settings and details can be found in the main body and the supplementary materials of our original paper *Calendar Graph Neural Networks for Modeling Time Structures in Spatiotemporal User Behaviors*.
+If you find this code pacakage is helpful, please consider cite our paper *Calendar Graph Neural Networks for Modeling Time Structures in Spatiotemporal User Behaviors*.
