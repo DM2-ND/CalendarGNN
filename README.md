@@ -2,7 +2,7 @@
 **Description: This repository contains the reference implementation of *CalendarGNN* model proposed in the paper *Calendar Graph Neural Networks for Modeling Time Structures in Spatiotemporal User Behaviors* accepted by KDD20.**
 
 ## Model
-![The architecture of *CalendarGNN*](https://github.com/kdd2020calendargnn/CalendarGNN/blob/master/fig/CalendarGNN.png? "*CalendarGNN*")
+![The architecture of *CalendarGNN*](https://github.com/dmsquare/CalendarGNN/blob/master/fig/CalendarGNN.png? "*CalendarGNN*")
 The architecture of *CalendarGNN* incorporates two networked structures. One is a tripartite network of items, sessions, and locations.
 The other is a hierarchical calendar network of hour, week, and weekday nodes.
 It first aggregates embeddings of location and items into session embeddings via the tripartite network, and then generates user embeddings from the session embeddings via the calendar structure. The user embeddings preserve spatial patterns and temporal patterns of a variety of periodicity (e.g., hourly, weekly, and weekday patterns).
