@@ -1,5 +1,5 @@
 # Calendar Graph Neural Networks for Modeling Time Structures in Spatiotemporal User Behaviors
-**Description: This repository contains the reference implementation of *CalendarGNN* model proposed in the paper *Calendar Graph Neural Networks for Modeling Time Structures in Spatiotemporal User Behaviors* accepted by KDD20.**
+**Description: This repository contains the reference implementation of *CalendarGNN* model proposed in the paper [Calendar Graph Neural Networks for Modeling Time Structures in Spatiotemporal User Behaviors](http://www.meng-jiang.com/pubs/calendargnn-kdd20/calendargnn-kdd20-paper.pdf) accepted by KDD20.**
 
 ## Model
 ![The architecture of *CalendarGNN*](https://github.com/dmsquare/CalendarGNN/blob/master/fig/CalendarGNN.png? "*CalendarGNN*")
@@ -43,4 +43,13 @@ During training, the script keeps writing to the checkpoint file specified by th
 Other examples are provided in the `./demo.sh` file.
 
 ## Miscellaneous
-If you find this code pacakage is helpful, please consider cite our paper *Calendar Graph Neural Networks for Modeling Time Structures in Spatiotemporal User Behaviors*.
+If you find this code pacakage is helpful, please consider cite us:
+```
+@inproceedings{wang2020calendar,
+  title={Calendar Graph Neural Networks for Modeling Time Structures in Spatiotemporal User Behaviors},
+  author={Wang, Daheng and Jiang, Meng and Syed, Munira and Conway, Oliver and Juneja, Vishal and Subramanian, Sriram and Chawla, Nitesh V},
+  booktitle={Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+  pages={2581--2589},
+  year={2020}
+}
+```
